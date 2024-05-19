@@ -27,28 +27,27 @@ README.md
 
 ## Setup Instructions
 
-### 1. Clone the Repository
-
+ ### 1. Clone the Repository
 First, clone the repository to your local machine using the following command:
 
 ```bash
 git clone <repository_url>
 cd citation_checker
-
+```
 ### 2. Create a virtual environment to manage project dependencies:
-
+```bash
 python -m venv venv
-
+```
 ### 3. Install Dependencies:
-
+```bash
 pip install flask requests nltk
-
+```
 ### 4. Run the Application:
-
+```bash
 python fetch_data_and_display_citations.py
+```
 
-
-Output:
+## Output:
 
 ### Inital Output Get Successfully:
 ![Screenshot 2024-05-19 120152](https://github.com/ShubhamKalsekar/Citation-Checker-using-Flask/assets/93903997/6eea6a92-2a38-4ca3-b14b-f08a32a7f4ae)
